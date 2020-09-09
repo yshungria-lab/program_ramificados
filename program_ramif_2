@@ -1,0 +1,21 @@
+# Enter a name and age and then compare them to indicate which of the two people (at least) is older
+
+classPerson(object):
+    def__init__(self, Name, Age):
+        self.name = Name
+        self.age = Age
+    # When we put parameters for functions within an object we should always use the self so that we are always referencing the same object
+    defcompareEdades(self,person):
+        if self.age > person.age:
+            print(f'{self.name} is greater than {person.name} by {self.age - person.age} years')
+        elif self.age < person.age
+            print(f'{self.name} is less than {person.name} by {person.age - self.age} years')
+        else:
+            print(f'{self.name} is the same age as {person.name}!! 🤯')
+        
+
+firstPerson = Person(input('What is your name ?\n'), int(input('What is your age ?\n'))
+
+secondPerson = Person(input('What is your name ?\n'), int(input('What is your age ?\n'))
+
+firstPerson.compareEdades(secondPerson)``
